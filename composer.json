@@ -1,0 +1,25 @@
+{
+  "name": "onursimsek/slack-helper",
+  "description": "Slack helper for laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Onur Şimşek",
+      "email": "posta@onursimsek.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "illuminate/notifications": "^8.24",
+    "laravel/slack-notification-channel": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlackHelper\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
