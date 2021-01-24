@@ -21,5 +21,17 @@
     "files": [
       "src/helpers.php"
     ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SlackHelper\\ServiceProvider"
+      ],
+      "aliases": {
+        "Slack": "SlackHelper\\Facade"
+      }
+    }
   }
 }
